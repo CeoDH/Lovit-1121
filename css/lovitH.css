@@ -42,7 +42,7 @@ header {
     /* background-color: white; */
     display: flex;
     /* height: 80%; */
-    margin-left: 8ch;
+    margin-left: 4vw;
 }
 .logo img{
     width: 18vh;
@@ -71,14 +71,14 @@ main {
     width: 100%;
     /* height: 78vh; */
     /* max-height: content; */
-    height: content;
-    max-height: 78vh;
+    /* height: content; */
+    /* max-height: 78vh; */
     display: flex;
     justify-content: center;
     /* align-items: center; */
     /* margin: 0 15px 0 15px; */
     /* background-color: blueviolet; */
-    margin-bottom: 15ch;
+    /* margin-bottom: 15ch; */
 }
 
 .main-card{
@@ -135,7 +135,7 @@ section{
 .price{
     /* margin-left: 8px; */
     font-family: Ropa Sans;
-    font-size: 2.6rem;
+    font-size: 4vw;
     font-weight: 400;
     line-height: 1.5;
     color: #888;
@@ -147,7 +147,7 @@ section{
     /* height: 80%; */
     /* min-width: 50px; */
     font-family: Ropa Sans;
-    font-size: 2.3rem;
+    font-size: 4vw;
     color: white;
 }
 
@@ -156,7 +156,7 @@ section{
     /* background-color: aquamarine; */
     /* font-size: .8rem; */
     font-family: Ropa Sans;
-    font-size: 1.2rem;
+    font-size: 1.72vw;
     text-align: justify;
     color: #555;
     width: 90%;
