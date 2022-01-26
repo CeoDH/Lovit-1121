@@ -180,3 +180,43 @@ section{
 
 #card-1{ background-color: #51D275; }
 #card-2{ background-color: #DC9730; }
+
+
+/* your style */
+.your-style{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: stretch; */
+    background-color: black;
+}
+
+.your-style-title{
+    background-color: blue;
+    text-align: center;
+}
+
+.your-style-card{
+    /* background-color: red; */
+    /* background-image: url(img/); */
+    /* background-image: url(/img/industrial.png); */
+    margin: 10px 0 10px 0;
+}
+.your-style-card img{
+    width: 100%;
+    
+}
+#bg-industrial{
+    background-image: url(../img/industrial.png);
+    height: 69px;
+    /* margin: 10px 0 10px 0; */
+}
+#bg-moderno{
+    background-image: url(../img/moderno.png);
+    height: 69px;
+    /* margin: 10px 0 10px 0; */
+}
+#bg-classico{
+    background-image: url(../img/classico.png);
+    height: 69px;
+    /* margin: 10px 0 10px 0; */
+}
