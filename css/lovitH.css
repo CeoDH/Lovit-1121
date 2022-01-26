@@ -260,11 +260,12 @@ footer{
     align-items: center;
 }
 
-.footer-map img{
-    width: 80%;
-    
+.footer-map a{
+    width: 100%;  
 }
-
+.footer-map img{
+    width: 80%;  
+}
 .footer-content-box{
     width: 45vw;
     padding: 0 4vw 0 0;
