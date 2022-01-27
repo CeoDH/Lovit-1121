@@ -22,7 +22,7 @@
 body {
     /* margin: 0; */
     width: 100%;
-    /* height: 1900px; */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -206,15 +206,17 @@ section{
 }
 
 .your-style-card{
-    /* background-color: red; */
-    /* background-image: url(img/); */
-    /* background-image: url(/img/industrial.png); */
+    /* background-color: blue; */
     position: relative;
-    margin: 1vw 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5vw 0 0 0;
 }
 .your-style-card img{
     width: 100%;
-    height: 100%;
+    align-self: center;
+    /* max-height: 130px; */
 }
 .fog{
     background: rgb(196 196 196 / 50%);
@@ -250,6 +252,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding: 0 6vw;
+    margin-top: auto;
 }
 
 .footer-map{
